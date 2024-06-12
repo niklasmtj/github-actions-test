@@ -5,7 +5,7 @@ run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push, workflow_dispatch]
 
 env:
-  FOO: bar
+  FOO: baz
 
 jobs:
   check-bats-version:
